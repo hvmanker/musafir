@@ -1,0 +1,71 @@
+.booking{
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-container {
+    flex: 1; 
+    padding: 20px;
+    text-align: center; 
+  }
+  
+  .image-container img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    transition: 300ms;
+  }
+  
+  .image-container img:hover{
+    box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.5); 
+    transform: scale(1.01);
+  }
+  
+  
+  .image-container .heading {
+    margin-top: 10px; 
+    font-size: 28px; 
+    font-weight: bold;
+    color: #333; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .form-container {
+    flex: 1; 
+    padding: 20px;
+  }.booking{
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  flex: 1; 
+  padding: 20px;
+  text-align: center; 
+}
+
+.image-container img {
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 8px; 
+  transition: 300ms;
+}
+
+.image-container img:hover{
+  box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.5); 
+  transform: scale(1.01);
+}
+
+
+.image-container .heading {
+  margin-top: 10px; 
+  font-size: 28px; 
+  font-weight: bold;
+  color: #333; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+}
+
+.form-container {
+  flex: 1; 
+  padding: 20px;
+}

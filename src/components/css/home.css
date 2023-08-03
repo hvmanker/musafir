@@ -1,0 +1,41 @@
+/* Add the following CSS to your CSS file or update your existing CSS */
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px; /* Add space around the card container */
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three cards in each row */
+  gap: 60px;
+  max-width: 1200px; /* Set a maximum width for the card grid */
+  margin: 0 auto; /* Center the grid on the page */
+}
+
+.grid-item {
+  text-decoration: none;
+  color: inherit;
+  width: 100%; /* Set each card to take 100% width in the grid */
+}
+
+/* Optional: If you want to control the width of each card, update the width accordingly */
+/* For example, to have each card occupy one-third of the grid's width */
+.grid-item .card {
+  width: 100%; /* Set the card width to 100% of its container (grid item) */
+}
+
+
+   .Location {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+  .card-element{
+    padding-top: 100px;
+    padding-left: 140px;
+    
+}

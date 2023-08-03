@@ -1,0 +1,15 @@
+.card:hover{
+    transform: scale(1.10);
+    cursor:pointer;
+  }
+  
+  .card{
+    transition: all 0.2s;
+    margin-bottom: 100px;
+    height: 80%;
+    width: 70%;
+  }
+  
+  .card-body{
+  text-align: center;
+  }
