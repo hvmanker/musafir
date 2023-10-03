@@ -7,6 +7,9 @@ import { Booking } from "./components/book/Booking";
 import "./App.css";
 import { Scroll } from "./components/Scroll.js";
 
+
+
+
 function App() {
   return (
     <>
@@ -20,9 +23,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/location/:id" element={<Skeleton />} />
           <Route path="/booking/:heading" element={<Booking />} />
+          
         </Routes>
       </Router>
-
+      
       <footer>
         <Footer />
       </footer>

@@ -31,7 +31,7 @@ export const Booking = () => {
           <img src={locationData.image} alt="..." />
         </div>
         <div class="form-container">
-          <Formskel />
+          <Formskel location={heading}/>
         </div>
       </div>
     </>
